@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #c62368;
+  background-image: url("./image/image-1.png"); 
+  background-position: center center;
+   position: relative;
+  object-fit: contain;
+  height: 95vh;
+  background-repeat: no-repeat;
+background-size: cover;
+
+  /* top: -100px; */
+  z-index: -1;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* -------------------------------------------Navbar-------------------------------------------------------------- */
+.navbar{
+  /* background-color: #fff !important; */
+  margin: 4px !important;
+  color: white !important;
+  opacity: 1;
+  /* position: fixed; */
+  backdrop-filter: blur(10px) !important;
+  top: 0;
+}
+.navbar-nav > li{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin-left: 1rem !important;
+  color: white !important;
+}
+.navbar-brand{
+  margin-left: 2rem;
+  color: pink;
+}
+.nav-link{
+  color: white !important;
+}
+.scrolled {
+  /* padding: 0px 0; */
+  /* background-color: #121212; */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+/* ----------------------------------------------header------------------------------------------------------------------ */
+.banner{
+  margin-top: 6rem !important;
+  margin-left: 50px;
+  margin-right: 50px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 8px 8px rgba(0,0,0,0.11), 
+              0 16px 16px rgba(0,0,0,0.11), 
+              0 32px 32px rgba(0,0,0,0.11);
+}
+/* --------------------------------media----------------------------------------------------------------- */
+@media only screen and (max-width: 600px) {
+   .size-k{
+    font-size: 1.5rem !important;
+   }
+   .jmt{
+    height: 30px !important;
+    width: 4px !important;
+   }
+   .main-white{
+    font-size: 0.8rem;
+    text-align: center;
+   }
+}
+
+/* ----------------------------------------------JobCard----------------------------------------------------- */
+.job-btn{
+  color: white !important;
+  border-color: white !important;
+  margin-top: 3px !important;
+}
+/* ---------------------------------------------------main----------------------------------------------------------- */
+.main-white{
+  color: white !important;
+}
